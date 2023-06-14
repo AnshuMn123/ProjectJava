@@ -1,6 +1,7 @@
 package OOPS.Polymorphism;
 
 class Parent{
+
     void Show(){
         System.out.println("Parent");
     }
@@ -12,7 +13,7 @@ class child1 extends Parent{
     }
 }
 
-class child2 extends Parent{
+class child2 extends child1{
     void Show(){
         System.out.println("child2");
     }
@@ -23,7 +24,9 @@ class child3 {
         System.out.println("Parent");
     }
 }
+
 public class DynamicDIspatch {
+
     public static void main(String a[]){
         Parent obj = new Parent();
         obj.Show();
@@ -34,8 +37,10 @@ public class DynamicDIspatch {
         obj = new child2();
         obj.Show();
 
+
+        child2 obj1 = (child2) obj;
          // obj = new child3(); // cant do this because it is not subclass for parent
-        obj.Show();
+        obj1.Show();
 
     }
 }
