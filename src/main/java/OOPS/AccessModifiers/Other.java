@@ -1,4 +1,4 @@
-package OOPS.AccessModifiers.Other;
+package OOPS.AccessModifiers;
 
 public class Other{
     public static void main(String[] args) {

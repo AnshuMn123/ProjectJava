@@ -1,4 +1,4 @@
-package StaticBlock;
+package OOPS.StaticBlock;
 
 class Mobile{
     int price;
