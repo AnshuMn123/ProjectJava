@@ -13,9 +13,6 @@ class Book{
 }
 
 class Library{
-
-
-
     public ArrayList<Book> books;
     public Library(ArrayList<Book> books) {
         this.books = books;
