@@ -1,4 +1,4 @@
-package Enum;
+package EnumAndVarags;
 
 enum Laptop{
     window(20), lenovo(10), mac, asus(12);
