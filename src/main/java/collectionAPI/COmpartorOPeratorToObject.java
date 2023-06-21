@@ -21,7 +21,6 @@ class Student{
 }
 public class COmpartorOPeratorToObject {
     public static void main(String arg[]){
-
         Comparator<Student> cmp = (Student i, Student j) -> i.age > j.age ? 1 : -1;
 
         List<Student> nums = new ArrayList<Student>();
