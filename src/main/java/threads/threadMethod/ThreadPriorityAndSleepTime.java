@@ -1,4 +1,4 @@
-package threads;
+package threads.threadMethod;
 
 class A1 extends Thread
 {

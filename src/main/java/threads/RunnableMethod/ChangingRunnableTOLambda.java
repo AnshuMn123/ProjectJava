@@ -1,4 +1,4 @@
-package threads;
+package threads.RunnableMethod;
 
 public class ChangingRunnableTOLambda {
     public static void main(String arg[]){

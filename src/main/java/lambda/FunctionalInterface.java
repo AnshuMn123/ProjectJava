@@ -1,6 +1,5 @@
 package lambda;
 
-@java.lang.FunctionalInterface
 interface Man{
     void run();
 }

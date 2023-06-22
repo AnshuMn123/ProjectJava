@@ -1,11 +1,9 @@
-package threads;
+package threads.RunnableMethod;
 
-// we cannot extends class A2 for two class but of not allowing multiple inheritance
+// we cannot extend class A2 for two class but of not allowing multiple inheritance
 // so instead of extend thread class, we implement their interface "runnable" so that we can extend the class
-class A2 implements java.lang.Runnable
-{
-    public void run()
-    {
+class A2 implements java.lang.Runnable {
+    public void run() {
         for(int i = 0; i <=5; i++) {
             System.out.println("Hi");
             try {
@@ -17,10 +15,8 @@ class A2 implements java.lang.Runnable
     }
 }
 
-class B2 implements java.lang.Runnable
-{
-    public void run()
-    {
+class B2 implements java.lang.Runnable {
+    public void run() {
         for(int i = 0; i <= 5; i++) {
             System.out.println("Hello");
             try {
@@ -33,7 +29,6 @@ class B2 implements java.lang.Runnable
 }
 public class RunnableInfo {
     public static void main(String arg[]){
-
         A2 obj1 = new A2(); // here after implementation we cannt find the start method directly so we implemented created the thread object and passing over it
         B2 obj2 = new B2();
 
@@ -42,6 +37,5 @@ public class RunnableInfo {
 
         t1.start();
         t2.start();
-
     }
 }
