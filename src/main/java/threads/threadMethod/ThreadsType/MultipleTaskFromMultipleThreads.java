@@ -1,4 +1,4 @@
-package threads.threadMethod;
+package threads.threadMethod.ThreadsType;
 
 class MyThread1 extends Thread{
     public void run() {
