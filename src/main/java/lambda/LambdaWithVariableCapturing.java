@@ -1,6 +1,5 @@
 package lambda;
 
-import java.io.*;
 interface MyFunction {
     // Method inside the interface
     int func(int n);

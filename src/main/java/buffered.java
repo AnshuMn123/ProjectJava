@@ -1,5 +1,3 @@
-package inputOutputStream;
-
 import java.io.*;
 
 class buffered

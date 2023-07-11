@@ -19,8 +19,8 @@ public class MovieBookApp extends Thread {
     int seat;
     public void run(){
         b.bookSeat(seat);
-
     }
+
     public static void main(String arg[]){
         b = new BookTheatreSeat();
 

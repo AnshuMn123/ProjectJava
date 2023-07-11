@@ -5,9 +5,7 @@ interface B{
 }
 public class LambdaReturnType {
     public static void main(String arg[]){
-
 //        1. functional interface
-
         B b = new B(){
             public int add(int i, int j){
                 return i + j;

@@ -15,7 +15,7 @@ class RandomPlayer {
     }
 }
 
-public class ThreadsInJava {
+public class MusicGame {
     static String[] games = { "A", "B", "C", "D", "E",  "F" };
     static String[] tracks = { "G", "H", "I", "J", "K" };
 

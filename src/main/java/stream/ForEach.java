@@ -11,12 +11,12 @@ public class ForEach {
 
 //        1. extended method of for each how it works
 
-//        Consumer<Integer> con = new Consumer<Integer>() {
-//            public void accept(Integer num) {
-//                System.out.println(num);
-//
-//            }
-//        };
+        Consumer<Integer> con1 = new Consumer<Integer>() {
+            public void accept(Integer num) {
+                System.out.println(num);
+
+            }
+        };
 
 //        change it into lamda function
         Consumer<Integer> con =  num -> System.out.println(num);

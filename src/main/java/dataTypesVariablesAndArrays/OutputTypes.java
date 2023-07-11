@@ -1,4 +1,4 @@
-package inputOutputStream.outputStream;
+package dataTypesVariablesAndArrays;
 
 public class OutputTypes {
     public static void main(String[] args) {
