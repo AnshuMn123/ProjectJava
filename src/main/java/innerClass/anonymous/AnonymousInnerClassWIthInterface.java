@@ -1,4 +1,4 @@
-package innerClass;
+package innerClass.anonymous;
 
 interface Hello {
     void show();

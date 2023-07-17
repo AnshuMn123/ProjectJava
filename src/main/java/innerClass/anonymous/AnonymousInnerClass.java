@@ -1,4 +1,4 @@
-package innerClass;
+package innerClass.anonymous;
 
 class Parent{
     void show(){

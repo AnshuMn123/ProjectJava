@@ -1,4 +1,4 @@
-package innerClass;
+package innerClass.nestedClass;
 
 class A{
     static void show(){
