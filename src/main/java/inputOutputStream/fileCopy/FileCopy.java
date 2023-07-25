@@ -8,8 +8,8 @@ import java.io.IOException;
 // if will copy data from abc --> bbc
 public class FileCopy {
     public static void main(String arg[]) throws IOException {
-        FileInputStream fis = new FileInputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/abc.txt");
-        FileOutputStream fos = new FileOutputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/bbc.txt");
+        FileInputStream fis = new FileInputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/input.txt");
+        FileOutputStream fos = new FileOutputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/output.txt");
 
         int data;
         while ((data = fis.read()) != -1){

@@ -2,10 +2,9 @@ package inputOutputStream.FIleInputStream;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class BufferedInputStreamClass {
+public class BufferInputStreamMarkSupported {
     public static void main(String[] args) throws IOException {
         FileInputStream fis = new FileInputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/FIleInputStream/input.txt");
         BufferedInputStream bs = new BufferedInputStream(fis);
@@ -14,10 +13,17 @@ public class BufferedInputStreamClass {
         System.out.println("buffer is " + bs.markSupported());
 
         System.out.println(bs.available());
-        int data;
-        while((data = bs.read()) != -1){
-            System.out.print((char)data);
-        }
+
+        System.out.print((char)bs.read());
+        System.out.println((char)bs.read());
+        bs.mark(2);
+        System.out.print((char)bs.read());
+        System.out.println((char)bs.read());
+
+        bs.reset();
+        System.out.print((char)bs.read());
+        System.out.println((char)bs.read());
+
         bs.close();
     }
 }
