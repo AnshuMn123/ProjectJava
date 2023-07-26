@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FileCopy {
     public static void main(String arg[]) throws IOException {
         FileInputStream fis = new FileInputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/input.txt");
-        FileOutputStream fos = new FileOutputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/output.txt");
+        FileOutputStream fos = new FileOutputStream("/home/asingh/codebase/ProjectJava/src/main/java/inputOutputStream/file.txt");
 
         int data;
         while ((data = fis.read()) != -1){
