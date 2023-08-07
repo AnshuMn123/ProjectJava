@@ -15,7 +15,7 @@ class A{
     }
 }
 public class DuckingExceptionsUsingThrows {
-    public static void main(String arg[]){
+    public static void main( String[] arg ){
 
 //        try
 //    	{

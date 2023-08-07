@@ -3,6 +3,7 @@ package oops.interfaces;
 interface  Computer{
      void run();
 }
+
 class Laptop implements Computer{
     public void run(){
         System.out.println("laptop");
@@ -19,7 +20,6 @@ class Developer{
     void run(Computer lap){
         System.out.println("start working");
     }
-
 }
 
 public class Interface  {
@@ -30,9 +30,5 @@ public class Interface  {
         dev.run(desk); // now this both work
 
         dev.run(lap);
-
-
-
     }
-
 }

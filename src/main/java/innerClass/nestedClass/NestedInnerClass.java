@@ -16,12 +16,18 @@ class A{
             System.out.println("static");
         }
     }
+
+    void display(){
+        B b = new B ();
+        b.config ();
+    }
 }
 
 public class NestedInnerClass {
     public static void main(String a[]){
         A obj = new A();
         obj.show();
+        obj.display ();
 
         A.B obj1 = obj.new B(); // for creating obj for nonstatic we need obj of parent to inistize it
         obj1.config();

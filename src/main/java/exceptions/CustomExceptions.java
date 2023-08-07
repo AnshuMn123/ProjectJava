@@ -6,7 +6,7 @@ class CustomException extends RuntimeException{
     };
 }
 public class CustomExceptions {
-    public static void main(String arg[]) {
+    public static void main( String[] arg ) {
         int j =20;
         j = 18/20;
         try {

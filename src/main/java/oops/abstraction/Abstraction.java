@@ -1,13 +1,8 @@
 package oops.abstraction;
 
-public class Abstraction {
-    public static void main(String[] args) {
-        Audi audi = new Audi();
-        audi.start();
-
-        BMW bmw = new BMW();
-        bmw.start();
-    }
+abstract  class  Car{
+    int price;
+    abstract void start();
 }
 
 class Audi extends Car{
@@ -22,7 +17,12 @@ class BMW extends Car{
     }
 }
 
-abstract  class  Car{
-    int price;
-    abstract void start();
+public class Abstraction {
+    public static void main(String[] args) {
+        Audi audi = new Audi();
+        audi.start();
+
+        BMW bmw = new BMW();
+        bmw.start();
+    }
 }
